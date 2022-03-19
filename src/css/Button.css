@@ -1,0 +1,11 @@
+.button-wrapper{  
+    padding: 1% 5%;
+    display: flex;
+    margin: auto;
+}
+.button{
+    border: 2px solid royalblue;
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: royalblue;
+}

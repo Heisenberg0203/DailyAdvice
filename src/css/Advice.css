@@ -1,0 +1,9 @@
+.advice-wrapper{
+    display: flex;
+    margin: auto;
+    padding: 0 10%;
+}
+
+.advice{
+    display: flex;
+}
