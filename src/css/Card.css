@@ -1,6 +1,6 @@
 .card{
-    height: auto;
-    width: 40%;
+    height: 100%;
+    width: 100%;
     margin: auto;
     padding: 2%;
     background-color: whitesmoke;
@@ -14,9 +14,3 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-    .card {
-        width: 90%;
-        height: 30%;
-    }
-}

@@ -6,4 +6,23 @@
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    height: auto;
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-wrapper{
+        width: 80%;
+        height: 70%;
+        margin: auto;
+    }
 }

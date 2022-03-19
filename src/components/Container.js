@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import "../css/Container.css"
 import Card from "./Card";
+import Footer from "./Footer";
 export default function Container(){
     const [advice,setAdvice] = React.useState("");
     useEffect(fetchdata,[]);
@@ -18,6 +19,10 @@ export default function Container(){
     }
     return (
     <div className="container">
-        <Card advice={advice} onClickHandler={fetchdata}> </Card>
-    </div>)
+        <div className="card-wrapper">
+            <Card advice={advice} onClickHandler={fetchdata}> </Card>
+        </div>
+        <Footer></Footer>
+    </div>
+    );
 } 
